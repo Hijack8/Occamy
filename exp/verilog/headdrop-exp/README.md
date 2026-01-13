@@ -1,6 +1,6 @@
-# Verilog report 
+# Verilog hardware report 
 
-This directory automates the synthesis of Verilog designs using Synopsys Design Compiler and generates timing, area reports. The setup includes a configuration file, a shell script to run the process, and a TCL script that drives the synthesis flow.
+This directory automates the synthesis of Verilog designs using Synopsys Design Compiler and generates timing, area reports. The setup includes a configuration file, a shell script to run the process, and a TCL script that drives the synthesis flow. **This directory is to reproduce the Table 1.**
 
 ## Files Overview
 
@@ -47,13 +47,13 @@ This directory automates the synthesis of Verilog designs using Synopsys Design 
 
 - Step 1: Launch Vivado. Open **Vivado 2024** from your Windows desktop.
 
-- Step 2: Create or Open a Project. Set the FPGA card to [U50](https://www.amd.com/en/products/accelerators/alveo/u50/a-u50-p00g-pq-g.html).
+- Step 2: Create or Open a Project. Set the FPGA card to [Z104](https://www.amd.com/en/products/adaptive-socs-and-fpgas/evaluation-boards/zcu104.html)
 
     - select "Create New Project":
     - Enter the Project Name and select the Project Location.
     - Choose RTL Project.
     - Optionally, check Do not specify sources at this time if you plan to add them later.
-    - Click Next and specify the Part or Board to [U50](https://www.amd.com/en/products/accelerators/alveo/u50/a-u50-p00g-pq-g.html).
+    - Click Next and specify the Part or Board to [Z104](https://www.amd.com/en/products/adaptive-socs-and-fpgas/evaluation-boards/zcu104.html)
 
 - Step 3: Import Files (Sources) 
 
