@@ -8,10 +8,6 @@ stage_message 3 "Reading design files" 1
 
 # Get all Verilog files under the RTL directory
 set rtl_files [get_verilog_files $RTL_PATH]
-# set ppe_h_width [getenv "PPE_H_WIDTH"]
-# set ppe_h_log_w [getenv "PPE_H_LOG_W"]
-# set ppe_h_width_T [getenv "PPE_H_WIDTH_T"]
-# set ppe_h_log_w_T [getenv "PPE_H_LOG_W_T"]
 set elab_params [getenv "ELAB_PARAMS"]
 
 
